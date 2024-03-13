@@ -1,0 +1,188 @@
+Aufgabe 1)
+Erstellen Sie einen Integer-Array a mit Dimensionen 5x5.
+
+Verwenden Sie zwei verschachtelte Schleifen, um folgende Ausgabe zu produzieren:
+
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+
+Aufgabe 2)
+Erstellen Sie einen Integer-Array a mit Dimensionen 5x5 und setzen Sie jedes Element auf den Wert 9.
+
+
+Aufgabe 3)
+
+Gegeben sei folgender Array:
+
+int[][] a = {
+  {4, 0, 2},
+  {3, 2, 3},
+  {1, 2, 3}
+};
+
+Erzeugen Sie drei einfache Arrays b, c und d, welche jeweils eine Zeile von a enthalten. Array b enthält also { 4, 0, 2 }. Sie sollen das natürlich so programmieren, dass die Inhalte aus a genommen werden.
+
+Testen Sie Ihr Programm mit:
+
+println(b);
+println();
+println(c);
+println();
+println(d);
+
+Sie sollten sehen:
+
+[0] 4
+[1] 0
+[2] 2
+
+[0] 3
+[1] 2
+[2] 3
+
+[0] 1
+[1] 2
+[2] 3
+
+
+
+Aufgabe 4)
+
+Gegeben sei ein leeres Array:
+
+int[][] a = new int[3][5];
+
+Schreiben Sie zunächst den Array mit Hilfe von Schleifen auf die Konsole:
+
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Versuchen Sie als nächstes, den Array wie folgt zu befüllen. Versuchen Sie, das möglichst ökonomisch zu tun.
+
+1 0 0 0 0
+0 1 0 0 0
+0 0 1 0 0
+
+Tipp
+
+Versuchen Sie als nächstes, den Array wie folgt zu befüllen:
+
+0 1 2 3 4
+0 1 2 3 4
+0 1 2 3 4
+
+Tipp
+
+Anschließend probieren Sie folgende Befüllung:
+
+0 0 0 0 0
+1 1 1 1 1
+2 2 2 2 2
+
+Zu guter letzt probieren Sie das hier:
+
+0 1 2 3 4
+1 2 3 4 5
+2 3 4 5 6
+
+
+Aufgabe 5)
+
+Gegeben sei folgendes Array:
+
+int[][] a = {
+  {4, 0, 2, 44},
+  {3, 20, 33, -4},
+  {12, -30, 6, 110}
+};
+
+Berechnen Sie die Summe aller Elemente. Im Beispiel sollte das 200 ergeben.
+
+Aufgabe 6)
+
+Sie schreiben für einen kleinen Laden ein Verwaltungsprogramm. Die Artikel in dem Laden stehen in folgender Tabelle:
+
+int[][] tabelle = {
+  {1001, 5, 500, 0},
+  {2001, 23, 1200, 0},
+  {3001, 2, 85, 0}
+};
+
+In der ersten Spalte steht die Artikelnummer, in der zweiten Spalte die Anzahl der verfügbaren Artikel und in der dritten Spalte der Stückpreis. In der vierten Spalte soll der Gesamtpreis stehen (tut er aber derzeit nicht).
+
+Sie haben zwei Aufgaben:
+
+1. Erzeugen Sie folgenden Ausgabe:
+
+5x Artikel Nr. 1001 à 500 EUR = 0
+23x Artikel Nr. 2001 à 1200 EUR = 0
+2x Artikel Nr. 3001 à 85 EUR = 0
+
+2. Berechnen Sie dann für jeden Artikel den Gesamtwert aller Arikel dieses Typs und schreiben Sie ihn in die Tabelle zurück (vierte Spalte). Bei Ausgabe sollten Sie sehen:
+
+5x Artikel Nr. 1001 à 500 EUR = 2500
+23x Artikel Nr. 2001 à 1200 EUR = 27600
+2x Artikel Nr. 3001 à 85 EUR = 170
+
+
+Aufgabe 7) 
+
+Sie entwickeln ein Inventarsystem für eine Bibliothek. Die Bücher in der Bibliothek sind in der folgenden Matrix aufgeführt:
+
+
+int[][] bibliothek = {
+  {101, 3, 15, 0},
+  {102, 5, 22, 0},
+  {103, 2, 30, 0}
+};
+
+In der ersten Spalte steht die Buch-ID, in der zweiten Spalte die Anzahl der verfügbaren Exemplare des Buches und in der dritten Spalte der Preis pro Buch. Die vierte Spalte soll den Gesamtpreis aller Exemplare dieses Buches enthalten (was sie aber momentan nicht tut).
+
+Ihre Aufgaben sind:
+
+    Generieren Sie folgende Ausgabe:
+
+
+3x Buch ID 101 zu 15 EUR = 0
+5x Buch ID 102 zu 22 EUR = 0
+2x Buch ID 103 zu 30 EUR = 0
+
+    Berechnen Sie dann für jedes Buch den Gesamtwert aller Exemplare dieses Buches und schreiben Sie diesen Wert in die vierte Spalte der Matrix zurück. Bei Ausgabe sollten Sie sehen:
+
+
+3x Buch ID 101 zu 15 EUR = 45
+5x Buch ID 102 zu 22 EUR = 110
+2x Buch ID 103 zu 30 EUR = 60
+
+Hinweis zur Implementierung: Sie können die gleiche Logik wie in der vorherigen Aufgabe verwenden, um die Berechnung durchzuführen und die aktualisierte Matrix auszugeben. Denken Sie daran, die Matrix entsprechend den neuen Daten der Bibliothek anzupassen.
+
+Aufgabe 8)
+
+Um diese Aufgabe zu lösen, müssen Sie wissen, wie Matrizenmultiplikation funktioniert. Wenn Sie das Thema nicht in der Schule hatten, können Sie es entweder unter dem gegebenen Link nachlesen (oder auf YouTube nachsehen) oder Sie lassen diese Aufgabe einfach aus.
+
+Gegeben sei die folgende 2x3-Matrix m
+
+int[][] m = {
+  {1, 1, 2},
+  {2, 0, 1}
+};
+
+und folgender Vektor v
+
+int[] v = { 10, 20, 30 };
+
+Berechnen Sie das Ergebnis der Multiplikation von m mit v und schreiben Sie das Ergebnis in den neuen Vektor w der Länge 2:
+
+int[] w = new int[2];
+
+Sie sollten bei Ausgabe von w erhalten:
+
+[0] 90
+[1] 50
+
+Testen Sie Ihren Code auch mit anderen Werten und anderen Dimensionen für Matrix m und Vektor v.
